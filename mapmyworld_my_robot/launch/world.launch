@@ -2,9 +2,9 @@
 
 <launch>
   <!-- Robot pose -->
-  <arg name="x" default="-3"/>
+  <arg name="x" default="0"/>
   <arg name="y" default="0"/>
-  <arg name="z" default="0"/>
+  <arg name="z" default="1"/>
   <arg name="roll" default="0"/>
   <arg name="pitch" default="0"/>
   <arg name="yaw" default="0"/>
@@ -13,7 +13,7 @@
   <include file="$(find mapmyworld_my_robot)/launch/robot_description.launch"/>
 
   <!-- World File -->
-  <arg name="world_file" default="$(find mapmyworld_my_robot)/worlds/udacity_mtv.world"/>
+  <arg name="world_file" default="$(find mapmyworld_my_robot)/worlds/my_cafe.world"/>
 
   <!-- Launch Gazebo World -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
