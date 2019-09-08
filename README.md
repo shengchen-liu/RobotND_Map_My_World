@@ -1,6 +1,6 @@
 # RoboND-Map My World
 
-![](/home/shengchen/workspace/catkin_ws/src/RobotND_Map_My_World/videos/screenshot.png)
+![](videos/screenshot.png)
 
 ## How to run
 
